@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sudoku-solver/static/css/main.d7506a47.chunk.css",
-    "main.js": "/sudoku-solver/static/js/main.5862fa94.chunk.js",
-    "main.js.map": "/sudoku-solver/static/js/main.5862fa94.chunk.js.map",
+    "main.css": "/sudoku-solver/static/css/main.77b38437.chunk.css",
+    "main.js": "/sudoku-solver/static/js/main.0e11f763.chunk.js",
+    "main.js.map": "/sudoku-solver/static/js/main.0e11f763.chunk.js.map",
     "runtime-main.js": "/sudoku-solver/static/js/runtime-main.c148420d.js",
     "runtime-main.js.map": "/sudoku-solver/static/js/runtime-main.c148420d.js.map",
     "static/js/2.b7431ee8.chunk.js": "/sudoku-solver/static/js/2.b7431ee8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.92faacc6.chunk.js": "/sudoku-solver/static/js/3.92faacc6.chunk.js",
     "static/js/3.92faacc6.chunk.js.map": "/sudoku-solver/static/js/3.92faacc6.chunk.js.map",
     "index.html": "/sudoku-solver/index.html",
-    "static/css/main.d7506a47.chunk.css.map": "/sudoku-solver/static/css/main.d7506a47.chunk.css.map",
+    "static/css/main.77b38437.chunk.css.map": "/sudoku-solver/static/css/main.77b38437.chunk.css.map",
     "static/js/2.b7431ee8.chunk.js.LICENSE.txt": "/sudoku-solver/static/js/2.b7431ee8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c148420d.js",
     "static/js/2.b7431ee8.chunk.js",
-    "static/css/main.d7506a47.chunk.css",
-    "static/js/main.5862fa94.chunk.js"
+    "static/css/main.77b38437.chunk.css",
+    "static/js/main.0e11f763.chunk.js"
   ]
 }
