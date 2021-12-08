@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
+    text-align: center;
+    margin: 30px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.8vmin;
+    height: 6.8vmin;
+    border: 0.8px solid black;
+    font-size: 2rem;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.row:first-child .cell {
+    border-top-width: 4.5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row:nth-child(3n) .cell {
+    border-bottom-width: 4.5px;
+}
+
+.cell:first-child {
+    border-left-width: 4.5px;
+}
+
+.cell:nth-child(3n) {
+    border-right-width: 4.5px;
+}
+
+.button {
+    margin: 30px 10px;
+    height: 35px;
+    width: 75px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4.7vmin;
+        height: 4.7vmin;
+        border: 0.5px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .row:first-child .cell {
+        border-top-width: 3px;
+    }
+
+    .row:nth-child(3n) .cell {
+        border-bottom-width: 3px;
+    }
+
+    .cell:first-child {
+        border-left-width: 3px;
+    }
+
+    .cell:nth-child(3n) {
+        border-right-width: 3px;
+    }
 }
