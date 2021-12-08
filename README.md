@@ -1,2 +1,3 @@
 # Sudoku Solver!
 Sudoku Solver! is a responsive React app that solves a 9x9 Sudoku puzzle that is inputted by the user (assuming the puzzle is solvable). To solve it, the app uses the backtracking algorithm (i.e. the algorithm recursively checks if the current guess eventually leads to a solved puzzle). Although the program can solve the puzzle almost instantly, I decided to add a delay after every recursive call to the solveHelper() method so that the user can visually see the puzzle being solved via the backtracking algorithm.
+Check out the app [here](https://wyang342.github.io/sudoku-solver/).
